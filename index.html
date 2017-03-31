@@ -294,7 +294,7 @@ google.maps.event.addListener(marker, 'click', function() {
                     <div class="team-leader-shadow"><a href="#"></a></div>
                     <img src="img/team4.jpg" alt="">
                     <ul>
-                        <li><a href="#" target="_blank" class="fa-instagram"></a></li>
+                        <li><a href="#team" data-toggle="popover" data-content="등록되어 있지 않아요!" class="fa-instagram" id="popover1"></a></li>
                         <li><a href="https://www.facebook.com/kjsrlawjdtjr?fref=ts" target="_blank" class="fa-facebook"></a></li>
                     </ul>
                 </div>
@@ -308,7 +308,7 @@ google.maps.event.addListener(marker, 'click', function() {
                     <div class="team-leader-shadow"><a href="#"></a></div>
                     <img src="img/team5.jpg" alt="">
                     <ul>
-                        <li><a href="#" target="_blank" class="fa-instagram"></a></li>
+                        <li><a href="#team" data-toggle="popover" data-content="등록되어 있지 않아요!" class="fa-instagram" id="popover2"></a></li>
                         <li><a href="https://www.facebook.com/profile.php?id=100013713604265&fref=ts" target="_blank" class="fa-facebook"></a></li>
                     </ul>
                 </div>
@@ -322,7 +322,7 @@ google.maps.event.addListener(marker, 'click', function() {
                     <div class="team-leader-shadow"><a href="#"></a></div>
                     <img src="img/team6.jpg" alt="">
                     <ul>
-                        <li><a href="#" target="_blank" class="fa-instagram"></a></li>
+                        <li><a href="#team" data-toggle="popover" data-content="등록되어 있지 않아요!" class="fa-instagram" id="popover3"></a></li>
                         <li><a href="https://www.facebook.com/chulehee.lim?fref=ts" target="_blank" class="fa-facebook"></a></li>
                     </ul>
                 </div>
@@ -546,16 +546,70 @@ var x = setInterval(function() {
 
 <!-- 카카오톡 관련 스크립트-->
 <script type='text/javascript'>
-                        //<![CDATA[
-                        // // 사용할 앱의 JavaScript 키를 설정해 주세요.
-                        Kakao.init('3e786f8df14fcfc89d159421a6a7c9b6');
-                        // // 카카오링크 버튼을 생성합니다. 처음 한번만 호출하면 됩니다.
-                        Kakao.Link.createTalkLinkButton({
-                        container: '#kakao-link-btn',
-                        label: '멋사 과제 제출합니다!',
-                        });
-                        //]]>
-                    </script>
+    //<![CDATA[
+    // // 사용할 앱의 JavaScript 키를 설정해 주세요.
+    Kakao.init('3e786f8df14fcfc89d159421a6a7c9b6');
+            // // 카카오링크 버튼을 생성합니다. 처음 한번만 호출하면 됩니다.
+        Kakao.Link.createTalkLinkButton({
+        container: '#kakao-link-btn',
+        label: '멋사 과제 제출합니다!',
+    });
+//]]>
+</script>
+                    
+
+<script>
+
+$("#popover1").popover({ trigger: "manual" , html: true, animation:false})
+.on("mouseenter", function () {
+    var _this = this;
+    $(this).popover("show");
+    $("#popover1").on("mouseleave", function () {
+        $(_this).popover('hide');
+    });
+}).on("mouseleave", function () {
+    var _this = this;
+    setTimeout(function () {
+        if (!$(".popover:hover").length) {
+            $(_this).popover("hide");
+        }
+    }, 300);
+});
+
+$("#popover2").popover({ trigger: "manual" , html: true, animation:false})
+.on("mouseenter", function () {
+    var _this = this;
+    $(this).popover("show");
+    $("#popover2").on("mouseleave", function () {
+        $(_this).popover('hide');
+    });
+}).on("mouseleave", function () {
+    var _this = this;
+    setTimeout(function () {
+        if (!$(".popover:hover").length) {
+            $(_this).popover("hide");
+        }
+    }, 300);
+});
+
+$("#popover3").popover({ trigger: "manual" , html: true, animation:false})
+.on("mouseenter", function () {
+    var _this = this;
+    $(this).popover("show");
+    $("#popover3").on("mouseleave", function () {
+        $(_this).popover('hide');
+    });
+}).on("mouseleave", function () {
+    var _this = this;
+    setTimeout(function () {
+        if (!$(".popover:hover").length) {
+            $(_this).popover("hide");
+        }
+    }, 300);
+});
+</script>
+
+
 
 
 </body>
