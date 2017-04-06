@@ -120,6 +120,7 @@ google.maps.event.addListener(marker, 'click', function() {
             <figure class="col-lg-4 col-sm-4  text-right wow fadeInLeft delay-02s">
                 <div class="service-list">
                 	<div class="service-list-col2">
+                	    <br>
                 	    <br><h2>동영상 보조강의!</h2>
                 	    <h3 style="text-align:center"><p><strong>동영상 보조강의가 있습니다!</strong><br>* 비공개라서 멋사계정으로만 볼 수 있습니다!<br></h3>
                         <br>
@@ -137,12 +138,15 @@ google.maps.event.addListener(marker, 'click', function() {
         	<div class="col-lg-4 col-sm-4 wow fadeInUp delay-05s">
             	<div class="service-list">
                 	<div class="service-list-col2">
-                        <br>
                         <h2>이번주 과제는?</h2><br>
-                        <h3 style="text-align:center"><p><strong>코드카데미에서 Ruby를 하기!</strong><br>주의! Ruby On Rails가 아닙니다!<br>* 완료한 사람은 캡쳐해서 단톡방에 업로드!</p></h3>
+                        <h3 style="text-align:center"><p><strong>1. 코드카데미에서 Ruby를 하기!</strong><br>주의! Ruby On Rails가 아닙니다!<br>* 완료한 사람은 캡쳐해서 단톡방에 업로드!<br><br><strong>2. UniLion 강의 수강 및 과제 제출!</strong><br>* 마이페이지에서 100% 확인하기!<br></p></h3>
                         <br>
                         <button type="button" class="btn btn-primary" style="margin:0 auto; display:block;">
                             <a href="https://www.codecademy.com/learn/ruby" style="color:white" target="_blank">코드카데미 수강하러 가기!</a>
+                        </button>
+                        <br>
+                        <button type="button" class="btn btn-primary" style="margin:0 auto; display:block;">
+                            <a href="https://uni.likelion.org" style="color:white" target="_blank">UniLion 바로가기!</a>
                         </button>
                     </div>
                 </div>
@@ -150,8 +154,9 @@ google.maps.event.addListener(marker, 'click', function() {
             <figure class="col-lg-4 col-sm-4  text-right wow fadeInRight delay-02s">
                 <div class="service-list-col2">
                     <br>
+                    <br>
                     <h2>과제 제출 마감시간!</h2><br>
-                    <!--<h3 id="demo1" style="text-align:center"></h3><br>-->
+                    <h3 id="demo1" style="text-align:center"></h3><br>
                     <h3 id="demo2" style="text-align:center"></h3>
                     <a id="kakao-link-btn" href="javascript:;">
                         <br><button type="button" class="btn btn-warning" style="margin:0 auto; display:block;">카카오톡으로 제출하기!</button>
@@ -541,7 +546,7 @@ $(window).load(function(){
 <!--카운트다운 관련 스크립트-->
 <script>
 // Set the date we're counting down to
-var countDownDate1 = new Date("apr 3, 2017 19:30:00").getTime();
+var countDownDate1 = new Date("apr 10, 2017 23:59:59").getTime();
 
 // Update the count down every 1 second
 var x1 = setInterval(function() {
@@ -559,8 +564,8 @@ var x1 = setInterval(function() {
     var seconds1 = Math.floor((distance1 % (1000 * 60)) / 1000);
     
     // Output the result in an element with id="demo"
-    document.getElementById("demo1").innerHTML = days1 + "일 " + hours1 + "시간 "
-    + minutes1 + "분 " + seconds1 + "초 ";
+    document.getElementById("demo1").innerHTML = "1번 과제 : " + days1 + "일 " + hours1 + "시간 "
+    + minutes1 + "분 " + seconds1  + "초 남았습니다!";
     
     // If the count down is over, write some text 
     if (distance1 < 0) {
@@ -572,7 +577,7 @@ var x1 = setInterval(function() {
 
 <script>
 // Set the date we're counting down to
-var countDownDate2 = new Date("apr 10, 2017 19:30:00").getTime();
+var countDownDate2 = new Date("apr 11, 2017 23:59:59").getTime();
 
 // Update the count down every 1 second
 var x2 = setInterval(function() {
@@ -590,7 +595,7 @@ var x2 = setInterval(function() {
     var seconds2 = Math.floor((distance2 % (1000 * 60)) / 1000);
     
     // Output the result in an element with id="demo"
-    document.getElementById("demo2").innerHTML = days2 + "일 " + hours2 + "시간 "
+    document.getElementById("demo2").innerHTML = "2번 과제 : " + days2 + "일 " + hours2 + "시간 "
     + minutes2 + "분 " + seconds2 + "초 남았습니다!";
     
     // If the count down is over, write some text 
