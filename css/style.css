@@ -582,6 +582,9 @@ border: 2px solid #fff;
 .team-leader ul li a.fa-facebook:hover{
 	color:#3b5998;
 }
+.team-leader ul li a.fa-home:hover{
+	color:#e8ae10;
+}
 .team-leader ul li a.fa-pinterest:hover{
 	color:#cb2026;
 }
