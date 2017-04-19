@@ -672,7 +672,7 @@ border: 2px solid #fff;
 	border-radius:50%;
 	transition:all 0.3s ease-in-out;
 }
-.social-link li a:hover, .social-link li a:focus{
+.social-link div a:hover, .social-link div a:focus{
 	text-decoration:none;
 }
 .comment a:hover {
