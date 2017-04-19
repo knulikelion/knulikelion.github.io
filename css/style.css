@@ -649,18 +649,18 @@ border: 2px solid #fff;
 }
 .social-link{
 	padding:35px 0;
-	margin:0 0 0 68px;
+	margin: auto;
 	display:block;
 	overflow:hidden;
 	list-style:none;
 }
-.social-link li{
+/*.social-link li{*/
 	/*float:left;*/
 /*margin-right:8px;*/
-}
+/*}*/
 
 
-.social-link li a{
+.social-link div a{
 	display:block;
 	margin:auto;
 	width:50px;
