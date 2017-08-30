@@ -79,23 +79,28 @@
     <!--main-section-start-->
     <div class="container">
       <h2>멋쟁이 사자처럼 2학기 모집!</h2>
-      <h3 style="text-align:center">
-          지원 유의사항을 꼭 확인하세요!
-      </h3>
+      <h6 style="text-align:center;">궁금한 점이나 문의사항은 페이지 하단을 참고해서 연락해주세요!</h6>
       <div class="row">
-        <figure class="col-lg-6 col-sm-6  text-right wow fadeInLeft delay-02s">
+        <figure class="col-lg-12 col-sm-12  text-right wow fadeInLeft delay-02s">
           <div class="service-list">
             <div class="service-list-col2">
               <br />
+
+              <h3 style="text-align:center">
+                  지원 유의사항을 꼭 확인하세요!
+              </h3>
               <br>
               <button type="button" class="btn btn-primary" style="margin:0 auto; display:block">
                 <a href="https://www.facebook.com/likelionKNU/posts/1938579089799746" style="color:white" target="_blank">모집 공고 보기!</a>
+              </button>
+              <button type="button" class="btn btn-primary" style="margin:0 auto; display:block">
+                <a href="/apply" style="color:white" target="_blank">모집 공고 보기!</a>
               </button>
 
               <br>
             </div>
           </div>
-
+        </figure>
       </div>
     </div>
   </section>
@@ -733,9 +738,7 @@
       $('.res-nav_click').click(function() {
         $('.main-nav').slideToggle();
         return false
-
       });
-
     });
   </script>
 
@@ -750,10 +753,8 @@
 
   <script type="text/javascript">
     $(window).load(function() {
-
       $('.main-nav li a, .servicelink').bind('click', function(event) {
         var $anchor = $(this);
-
         $('html, body').stop().animate({
           scrollTop: $($anchor.attr('href')).offset().top - 102
         }, 1500, 'easeInOutExpo');
@@ -770,14 +771,10 @@
 
   <script type="text/javascript">
     $(window).load(function() {
-
-
       var $container = $('.portfolioContainer'),
         $body = $('body'),
         colW = 375,
         columns = null;
-
-
       $container.isotope({
         // disable window resizing
         resizable: true,
@@ -785,7 +782,6 @@
           columnWidth: colW
         }
       });
-
       $(window).smartresize(function() {
         // check if columns has changed
         var currentColumns = Math.floor(($body.width() - 30) / colW);
@@ -796,20 +792,16 @@
           $container.width(columns * colW)
             .isotope('reLayout');
         }
-
       }).smartresize(); // trigger resize to set container width
       $('.portfolioFilter a').click(function() {
         $('.portfolioFilter .current').removeClass('current');
         $(this).addClass('current');
-
         var selector = $(this).attr('data-filter');
         $container.isotope({
-
           filter: selector,
         });
         return false;
       });
-
     });
   </script>
 
@@ -818,26 +810,20 @@
   <script>
     // Set the date we're counting down to
     var countDownDate1 = new Date("jun 19, 2017 19:30:00").getTime();
-
     // Update the count down every 1 second
     var x1 = setInterval(function() {
-
       // Get todays date and time
       var now1 = new Date().getTime();
-
       // Find the distance between now an the count down date
       var distance1 = countDownDate1 - now1;
-
       // Time calculations for days, hours, minutes and seconds
       var days1 = Math.floor(distance1 / (1000 * 60 * 60 * 24));
       var hours1 = Math.floor((distance1 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
       var minutes1 = Math.floor((distance1 % (1000 * 60 * 60)) / (1000 * 60));
       var seconds1 = Math.floor((distance1 % (1000 * 60)) / 1000);
-
       // Output the result in an element with id="demo"
       document.getElementById("demo1").innerHTML = "1번 과제 : " + days1 + "일 " + hours1 + "시간 " +
         minutes1 + "분 " + seconds1 + "초 남았습니다!";
-
       // If the count down is over, write some text
       if (distance1 < 0) {
         clearInterval(x1);
@@ -849,26 +835,20 @@
   <script>
     // Set the date we're counting down to
     var countDownDate2 = new Date("jun 19, 2017 19:30:00").getTime();
-
     // Update the count down every 1 second
     var x2 = setInterval(function() {
-
       // Get todays date and time
       var now2 = new Date().getTime();
-
       // Find the distance between now an the count down date
       var distance2 = countDownDate2 - now2;
-
       // Time calculations for days, hours, minutes and seconds
       var days2 = Math.floor(distance2 / (1000 * 60 * 60 * 24));
       var hours2 = Math.floor((distance2 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
       var minutes2 = Math.floor((distance2 % (1000 * 60 * 60)) / (1000 * 60));
       var seconds2 = Math.floor((distance2 % (1000 * 60)) / 1000);
-
       // Output the result in an element with id="demo"
       document.getElementById("demo2").innerHTML = "2번 과제 : " + days2 + "일 " + hours2 + "시간 " +
         minutes2 + "분 " + seconds2 + "초 남았습니다!";
-
       // If the count down is over, write some text
       if (distance2 < 0) {
         clearInterval(x2);
@@ -880,26 +860,20 @@
   <script>
     // Set the date we're counting down to
     var countDownDate3 = new Date("jun 19, 2017 19:30:00").getTime();
-
     // Update the count down every 1 second
     var x3 = setInterval(function() {
-
       // Get todays date and time
       var now3 = new Date().getTime();
-
       // Find the distance between now an the count down date
       var distance3 = countDownDate3 - now3;
-
       // Time calculations for days, hours, minutes and seconds
       var days3 = Math.floor(distance3 / (1000 * 60 * 60 * 24));
       var hours3 = Math.floor((distance3 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
       var minutes3 = Math.floor((distance3 % (1000 * 60 * 60)) / (1000 * 60));
       var seconds3 = Math.floor((distance3 % (1000 * 60)) / 1000);
-
       // Output the result in an element with id="demo"
       document.getElementById("demo3").innerHTML = "3번 과제 : " + days3 + "일 " + hours3 + "시간 " +
         minutes3 + "분 " + seconds3 + "초 남았습니다!";
-
       // If the count down is over, write some text
       if (distance3 < 0) {
         clearInterval(x3);
