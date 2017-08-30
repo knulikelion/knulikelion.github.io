@@ -1,67 +1,224 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
-
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
+    <link rel="shortcut icon" href="assets/ico/favicon.png">
 
-    <title>Logo Nav - Start Bootstrap Template</title>
+    <title>KNU LIKELION :: APPLY</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="css/logo-nav.css" rel="stylesheet">
+    <link href="assets/css/main.css" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
 
+    <script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/modernizr.custom.js"></script>
+
+
+
+    <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="assets/js/html5shiv.js"></script>
+      <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
   </head>
 
-  <body>
+  <body data-spy="scroll" data-offset="0" data-target="#theMenu">
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="#">
-          <img src="http://placehold.it/300x60?text=Logo" width="150" height="30" alt="">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home
-                <span class="sr-only">(current)</span>
-              </a>
-            </li>
-            <!-- <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Services</a>
-            </li> -->
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+	<!-- Menu -->
+	<nav class="menu" id="theMenu">
+		<div class="menu-wrap">
+			<h1 class="logo"><a href="index.html#home">LIKELION</a></h1>
+			<i class="icon-remove menu-close"></i>
+			<a href="#home" class="smoothScroll">Home</a>
+			<a href="#about" class="smoothScroll">About</a>
+			<a href="#portfolio" class="smoothScroll">Apply</a>
+			<a href="#contact" class="smoothScroll">Contact</a>
+			<a href="https://www.facebook.com/likelionKNU/"><i class="icon-facebook"></i></a>
+			<a href="http://plus.kakao.com/home/@멋쟁이사자처럼경북대학교"><i class="icon-comments"></i></a>
+			<a href="mailto:knu@likelion.org"><i class="icon-envelope"></i></a>
+		</div>
 
-    <!-- Page Content -->
-    <div class="container">
-      <h1 class="mt-5">Logo Nav by Start Bootstrap</h1>
-      <p>The logo in the navbar is now a default Bootstrap feature in Bootstrap 4! Make sure to set the width and height of the logo within the HTML. For best results, it's recommended that you use an SVG image as your logo.</p>
-    </div>
-    <!-- /.container -->
+		<!-- Menu button -->
+		<div id="menuToggle"><i class="icon-reorder"></i></div>
+	</nav>
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/popper/popper.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
-  </body>
 
+	<!-- ========== HEADER SECTION ========== -->
+	<section id="home" name="home"></section>
+	<div id="headerwrap">
+		<div class="container">
+			<div class="logo">
+				<img src="assets/img/logo.png">
+			</div>
+			<br>
+			<div class="row">
+				<h1>멋쟁이 사자처럼 추가모집 공고</h1>
+				<br>
+				<h3>Hello, likelion everyone!</h3>
+				<br>
+				<br>
+				<h3 id="demo1" style="text-align:center"></h3>
+				<div class="col-lg-6 col-lg-offset-3">
+				</div>
+			</div>
+		</div><!-- /container -->
+	</div><!-- /headerwrap -->
+
+
+
+	<!-- ========== ABOUT SECTION ========== -->
+	<section id="about" name="about"></section>
+	<div id="f">
+		<div class="container">
+			<div class="row">
+				<h3>ABOUT</h3>
+				<p class="centered"><i class="icon icon-circle"></i><i class="icon icon-circle"></i><i class="icon icon-circle"></i></p>
+
+				<!-- INTRO INFORMATIO-->
+				<div class="col-lg-12">
+					<p>경북대학교 멋쟁이 사자처럼에서 2학기 인원을 추가 모집합니다.</p>
+					<p>먼저 정식 기수 선발이 아니어서 정식 기수와 같은 혜택을 드리지 못한다는 점을 미리 공지합니다.</p>
+					<p>2학기에 추가 인원을 모집하는 이유는 올해 초 많은 분들이 지원해주셨고, 한정된 인원만을 선발하다보니</p>
+					<p>정말 참여하시고 싶어하시는 분들이 많음에도 불구하고 선발하지 못함이 운영진으로서도 아쉬운 마음이 들었습니다.</p>
+					<p>정식 선발 기수와는 동일한 혜택을 지원하지 못하지만, 웹서비스 제작을 배우는 과정에는 크게 문제가 되지 않는다고 생각합니다.</p>
+					<p>
+						이에 추가 모집을 하게되었고 3개월 동안 지원해주신 모든 분들이 원하는 웹 서비스를 제작할 수 있는 좋은 기회가 되었으면 합니다.
+					</p>
+				</div>
+			</div>
+		</div><!-- /container -->
+	</div><!-- /f -->
+
+
+	<!-- ========== CAROUSEL SECTION ========== -->
+	<section id="portfolio" name="portfolio"></section>
+	<div id="f">
+		<div class="container">
+			<div class="row">
+				<h3>APPLY</h3>
+				<p class="centered"><i class="icon icon-circle"></i><i class="icon icon-circle"></i><i class="icon icon-circle"></i></p>
+				<div class="col-lg-12">
+					<p>오늘부터 경북대학교 멋쟁이사자처럼 2학기 모집을 시작합니다.</p>
+					<p>코딩이 무엇인지 몰라도 좋고 앞으로 만들고 싶은 것만 있으면 됩니다!</p>
+					<p>평소에 불편하고 해결하고 싶었던 재미있고 즐길 수 있는 서비스를 만들 분들은 모두 지원해주세요!</p>
+					<p>경북대학교 멋쟁이 사자처럼 2학기 모집!</p>
+					<br />
+					<hr />
+					<br /><br />
+				</div>
+				<div class="col-lg-6" style="text-align:left;">
+					<p><strong>◆ 모집대상</strong></p>
+					<p>- 경북대학교 학생 학과, 학적에 무관하게 누구나 지원이 가능합니다!</p>
+					<hr />
+
+
+					<p><strong>◆ 지원자격</strong></p>
+					<p>- 약 3개월 동안 멋사에서 활동하실 수 있는 분이면 가능합니다!</p>
+					<p>- 경북대 멋사 OT (9/12 화) 및 면접 (9/9 ~ 9/10) 참여 가능하신 분이면 가능!</p>
+					<p>- 매주 화요일 19시 이후 오프라인 스터디 참석 가능하신 분! (주 1회 예정)</p>
+					<p>- 교육일정은 9/12 - 12월 초까지 진행될 예정입니다.</p>
+					<p>- 개인 노트북 소지자 (오프라인 교육에 사용됩니다!)</p>
+					<hr />
+
+					<p><strong>◆ 모집일정</strong></p>
+					<p>- 서류접수 : 8/31(목) ~ 9/7(목), 일주일 간 진행됩니다.</p>
+					<p>- 서류 합격자 발표 : 9/8일(금)</p>
+					<p>- 서류심사 및 면접 : 9/9(토) ~ 9/10(일)</p>
+					<p>- 최종발표 : 9/11(월)</p>
+					<p>- 최종합격자 오리엔테이션 : 9/12(화) 저녁 7시</p>
+					<hr />
+
+					<p><strong>◆ 활동내용</strong></p>
+					<p>- 매주 1회 오프라인 교육을 받습니다.</p>
+					<p>- 교육 기간 동안 HTML , CSS , Javascript , Ruby , Ruby on Rails를 배웁니다!</p>
+				</div><!-- col-lg-8 -->
+				<div class="col-lg-6" style="text-align:left;">
+					<p><strong>◆ 지원양식</strong></p>
+					<p>지원 양식(워드, 한글, ppt, pdf 등 무관)은 자유롭게 해주시되</p>
+					<p>이름, 나이, 학과, 연락가능한 번호를 꼭 적어주시고 아래의 질문을 필수로 적어서 보내주시면 됩니다.</p>
+
+					<p>* 공통질문</p>
+					<p>1. 멋쟁이 사자처럼에 지원한 동기와 멋쟁이 사자처럼으로 활동하면서 만들고 싶은 서비스에 관해 설명해주세요.</p>
+					<p>2. 3명 이상의 협업 프로젝트 경험을 자세하게 이야기해주세요. (시작부터 최종 완료 여부까지) 공학적이지 않은 사항도 괜찮습니다.</p>
+					<p>3. 9/9 ~ 9/10일 중 면접 가능한 날과 시간을 적어주세요.</p>
+					<hr />
+
+					<p><strong>◆ 지원방법</strong></p>
+					<p>knu@likelion.org로 파일을 첨부하여 제출해주시면 됩니다.</p>
+					<p>메일 지원 시 제목을 ‘멋쟁이 사자처럼 2학기 지원 - 이름’의 양식으로 보내주세요.</p>
+					<p>예) 멋쟁이 사자처럼 2학기 지원 - 김멋사</p>
+					<hr />
+
+					<p><strong>◆ 기타 유의사항</strong></p>
+					<p>- 정식 기수 선발과는 다른 추가 모집입니다.</p>
+					<p>- 따라서 정식 선발 기수처럼 @likelion.org 이나 협력사 지원, 수료증 등의 혜택은 없습니다.</p>
+					<p>- 약 3개월 동안 이수 조건을 만족하시면 경북대학교 멋쟁이 사자처럼 내에서 혜택을 드릴 예정입니다.</p>
+					<p>- 지원에 관한 질문이나 궁금한 점은 knu.likelion.org, 페이스북 혹은 카카오톡 플러스 친구 ‘멋쟁이 사자처럼 경북대학교’ 를 통해 연락주시면 됩니다.</p>
+					<hr />
+				</div>
+			</div><!-- row -->
+		</div><!-- container -->
+	</div>	<!-- f -->
+
+	<!-- ========== CONTACT SECTION ========== -->
+	<section id="contact" name="contact"></section>
+	<div id="f">
+		<div class="container">
+			<div class="row">
+				<h3>CONTACT ME</h3>
+				<p class="centered"><i class="icon icon-circle"></i><i class="icon icon-circle"></i><i class="icon icon-circle"></i></p>
+
+				<div class="col-lg-6 col-lg-offset-3">
+					<p>Kyungpook National University<br/>2017 LIKELION<br/>+82 10-3028-3714</p>
+					<p>knu@likelion.org</p>
+					<!-- <p><a href="#"><button type="button" class="btn btn-warning">Yeah! Contact Us</button></a></p> -->
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+	<script src="assets/js/classie.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/smoothscroll.js"></script>
+	<script src="assets/js/main.js"></script>
+</body>
+<script>
+	// Set the date we're counting down to
+	var countDownDate1 = new Date("sep 7, 2017 23:59:59").getTime();
+	// Update the count down every 1 second
+	var x1 = setInterval(function() {
+		// Get todays date and time
+		var now1 = new Date().getTime();
+		// Find the distance between now an the count down date
+		var distance1 = countDownDate1 - now1;
+		// Time calculations for days, hours, minutes and seconds
+		var days1 = Math.floor(distance1 / (1000 * 60 * 60 * 24));
+		var hours1 = Math.floor((distance1 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+		var minutes1 = Math.floor((distance1 % (1000 * 60 * 60)) / (1000 * 60));
+		var seconds1 = Math.floor((distance1 % (1000 * 60)) / 1000);
+		// Output the result in an element with id="demo"
+		document.getElementById("demo1").innerHTML = "지원서 마감까지 " + days1 + "일 " + hours1 + "시간 " +
+			minutes1 + "분 " + seconds1 + "초 남았습니다!";
+		// If the count down is over, write some text
+		if (distance1 < 0) {
+			clearInterval(x1);
+			document.getElementById("demo1").innerHTML = "1번 과제제출 시간이 끝났습니다!";
+		}
+	}, 1000);
+</script>
 </html>
