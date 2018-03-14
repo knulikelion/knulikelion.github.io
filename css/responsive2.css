@@ -1,11 +1,4 @@
-<<<<<<< HEAD
 @media only screen and (max-width: 767px) {
 	.teamwork-leader-box{ max-width:307px; width:auto; float:none; margin:0 auto;	}
 	.teamwork-leader-box:nth-of-type(5n){ margin:0 auto}
 }
-=======
-@media only screen and (max-width: 767px) {
-	.teamwork-leader-box{ max-width:307px; width:auto; float:none; margin:0 auto;	}
-	.teamwork-leader-box:nth-of-type(5n){ margin:0 auto}
-}
->>>>>>> 8aec6e70dd6781f627a2daa896cd0ca4ef681aae
