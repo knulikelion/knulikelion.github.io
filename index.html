@@ -1,962 +1,441 @@
+
 <!DOCTYPE html>
-
-<!-- 코드를 보러오신 모든 분들 반갑습니다. 현재는 html과 css, javascript로만 이루어져 있는 간단한 홈페이지 입니다.-->
-
-<html>
-
+<html lang="en">
 <head>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
-    crossorigin="anonymous">
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
-    crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, maximum-scale=1">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script src="static/js/jquery.flexslider.js"></script>
 
-  <title>KNU LIKELION</title>
-  <link rel="icon" href="favicon.png" type="image/png">
-  <link rel="shortcut icon" href="https://uni.likelion.org/assets/favicons/favicon-841c731d4bf227cdbfe4fe4245d7750b2c18c37f61810aa6100de9174db89e4f.ico"
-    type="img/x-icon">
-  <link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://uni.likelion.org/assets/favicons/favicon-120-f7b42ac475d76685a746bfd55e9d9de8c5e006f9b6afb90331a72c5942da7e59.png">
-  <link rel="canonical" href="http://knu.likelion.org/index.html">
-  <meta name="description" content="경북대학교 멋쟁이 사자처럼">
+    <link rel="icon" href="favicon.png" type="image/png">
+    <link rel="shortcut icon" href="https://uni.likelion.org/assets/favicons/favicon-841c731d4bf227cdbfe4fe4245d7750b2c18c37f61810aa6100de9174db89e4f.ico" type="img/x-icon">
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://uni.likelion.org/assets/favicons/favicon-120-f7b42ac475d76685a746bfd55e9d9de8c5e006f9b6afb90331a72c5942da7e59.png">
 
-  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,800italic,700italic,600italic,400italic,300italic,800,700,600'
-    rel='stylesheet' type='text/css'>
-
-  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-  <link href="css/style.css" rel="stylesheet" type="text/css">
-  <link href="css/style2.css" rel="stylesheet" type="text/css">
-  <link href="css/font-awesome.css" rel="stylesheet" type="text/css">
-  <link href="css/responsive.css" rel="stylesheet" type="text/css">
-  <link href="css/responsive2.css" rel="stylesheet" type="text/css">
-  <link href="css/animate.css" rel="stylesheet" type="text/css">
-
-  <script type="text/javascript" src="js/jquery.1.8.3.min.js"></script>
-  <script type="text/javascript" src="js/bootstrap.js"></script>
-  <script type="text/javascript" src="js/jquery-scrolltofixed.js"></script>
-  <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
-  <script type="text/javascript" src="js/jquery.isotope.js"></script>
-  <script type="text/javascript" src="js/wow.js"></script>
-  <script type="text/javascript" src="js/classie.js"></script>
-  <!-- <script src="contactform/contactform.js"></script> -->
-  <script src="http://developers.kakao.com/sdk/js/kakao.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR|Oswald" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="static/css/flexslider.css" type="text/css">
+    <link rel="stylesheet" href="static/css/style.css">
+    <title>KNU X LIKELION</title>
 </head>
-
 <body>
-  <header class="header" id="header">
-    <!--header-start-->
-    <div class="container">
-      <figure class="logo animated fadeInDown delay-07s">
-        <a href="#">
-          <img src="img/logo.png" alt="">
-        </a>
-      </figure>
-      <h1 class="animated fadeInDown delay-07s">멋사를 함께하게 되어 반가워요</h1>
-      <ul class="we-create animated fadeInUp delay-1s">
-        <li>멋사를 하면서 우리는 앞으로 많은 일들을 하게 될 거예요! 우리 모두 즐겨요!</li>
-      </ul>
-      <a class="link animated fadeInUp delay-1s servicelink" href="#service2">톺아보기</a>
-    </div>
-  </header>
-  <!--header-end-->
-
-  <nav class="main-nav-outer" id="test">
-    <!--main-nav-start-->
-    <div class="container">
-      <ul class="main-nav">
-        <li>
-          <a href="#header">Home</a>
-        </li>
-        <li>
-          <a href="#service2">Service</a>
-        </li>
-        <li>
-          <a href="#team">Team</a>
-        </li>
-        <!-- <li><a href="#Portfolio">스폰서</a></li>-->
-        <li class="small-logo">
-          <a href="#header">
-            <img src="img/small-logo.png" alt="">
-          </a>
-        </li>
-        <li>
-          <a href="#contact">Contact</a>
-        </li>
-        <!-- <li><a href="/apply">Apply</a></li> -->
-        <li>
-          <a href="/history">Histroy</a>
-        </li>
-      </ul>
-      <a class="res-nav_click" href="#">
-        <i class="fa-bars"></i>
-      </a>
-    </div>
-  </nav>
-  <!--main-nav-end-->
-
-  <!-- main-section-start -->
-  <!-- <section class="main-section" id="service">
-
-    <div class="container">
-      <h2>2017 멋쟁이 사자처럼 2학기 모집!</h2>
-      <h6 style="text-align:center;">궁금한 점이나 문의사항은 본 페이지 하단 및 공고 페이지 메뉴바를 참고해서 연락해주세요!</h6>
-      <div class="row">
-        <figure class="col-lg-12 col-sm-12  text-right wow fadeInLeft delay-02s">
-          <div class="service-list">
-            <div class="service-list-col2">
-              <h3 style="text-align:center">
-                  지원 유의사항을 꼭 확인하세요!
-              </h3>
-              <br>
-              <button type="button" class="btn btn-primary" style="margin:0 auto; display:block">
-                <a href="/apply" style="color:white">모집 공고 보기!</a>
-              </button>
-            </div>
-          </div>
-        </figure>
-      </div>
-  </section> -->
-
-  <!--main-section-start-->
-  <!-- <section class="main-section" id="service">
-    <div class="container">
-      <h2>보조강의와 과제를 확인하세요!</h2>
-      <h6>과제를 하면서 아가사자에서 멋쟁이 사자로 커봐요!</h6>
-      <div class="row">
-        <figure class="col-lg-4 col-sm-4  text-right wow fadeInLeft delay-02s">
-          <div class="service-list">
-            <div class="service-list-col2">
-              <br />
-              <h2>동영상 보조강의!</h2>
-              <h3 style="text-align:center"><p><strong>동영상 보조강의가 있습니다!</strong><br>* 멋사계정으로만 볼 수 있습니다!<br></h3>
-              <br>
-              <button type="button" class="btn btn-danger" style="margin:0 auto; display:block">
-                            <a href="https://youtu.be/XrfEszhmib4" style="color:white" target="_blank">Rails 1번 강의 듣기!</a>
-                        </button>
-              <br>
-              <button type="button" class="btn btn-danger" style="margin:0 auto; display:block">
-                            <a href="https://youtu.be/dw0MtAR33U8" style="color:white" target="_blank">Rails 2번 강의 듣기!</a>
-                        </button>
-              <br>
-            </div>
-          </div>
-        </figure>
-        <div class="col-lg-4 col-sm-4 wow fadeInUp delay-05s">
-          <div class="service-list">
-            <div class="service-list-col2">
-              <h2>이번주 과제는?</h2><br>
-              <h3 style="text-align:center"><p><strong>1. 검색 과제를 마무리하세요!</strong><br>* 힌트는 강의에!<br><br><strong>2. 루비에 관한 자료조사하기!!</strong><br>* 직접 사용해보고 공유해요!<br><br><strong>3. 방학기간에도 열심히 배워봅시다!</strong><br>* 벌써 1학기가 끝...</p></h3>
-
-              <button type="button" class="btn btn-primary" style="margin:0 auto; display:block;">
-                            <a href="https://www.codecademy.com/learn/ruby" style="color:white" target="_blank">코드카데미 수강하러 가기!</a>
-                        </button>
-              <br>
-              <button type="button" class="btn btn-primary" style="margin:0 auto; display:block;">
-                            <a href="https://uni.likelion.org" style="color:white" target="_blank">UniLion 바로가기!</a>
-                        </button>
-            </div>
-          </div>
-        </div>
-        <figure class="col-lg-4 col-sm-4  text-right wow fadeInRight delay-02s">
-          <div class="service-list-col2">
-            <h2>과제 제출 마감시간!</h2><br>
-            <h3 id="demo1" style="text-align:center"></h3><br>
-            <h3 id="demo2" style="text-align:center"></h3><br>
-            <h3 id="demo3" style="text-align:center"></h3>
-            <a id="kakao-link-btn" href="javascript:;">
-              <br><button type="button" class="btn btn-warning" style="margin:0 auto; display:block;">카카오톡으로 제출하기!</button>
+    <header>
+        <div class="header">
+            <a href="index.html">
+                <div class="logo">
+                    <img src="static/images/logo_r.png" alt="">
+                    <h2>KNU X LIKELION</h2>
+                </div>
             </a>
-          </div>
-        </figure>
-      </div>
-    </div>
-  </section> -->
-  <!--main-section-end-->
-
-  <section class="main-section alabaster" id="service2">
-    <!--main-section alabaster-start-->
-    <div class="container">
-      <div class="row">
-        <figure class="col-lg-5 col-sm-4 wow fadeInLeft">
-          <img src="https://t1.daumcdn.net/thumb/R1280x0/?fname=http://t1.daumcdn.net/brunch/service/user/EQd/image/hwSL_46t22wErR1XzbDXlihGa3s.jpg"
-            width="500" height="350">
-          <!--<div id="map_canvas"style="width:250px; height:250px;"></div>-->
-        </figure>
-        <div class="col-lg-7 col-sm-8 featured-work">
-          <h2>멋쟁이 사자처럼을 통해 우리는...</h2>
-          <P class="padding-b">Ruby 라는 언어를 배우고 Ruby On Raills를 통해 웹서비스를 만들겁니다!
-            <br /> 그리고 2018년에는 더 많은 것들을 배울 수 있도록 준비하고 있습니다 :)</P>
-          <div class="featured-box">
-            <div class="featured-box-col1 wow fadeInRight delay-02s">
-              <i class="fa-magic"></i>
-            </div>
-            <div class="featured-box-col2 wow fadeInRight delay-02s">
-              <h3>Programing is like Magic</h3>
-              <p>우리는 프로그래밍을 통해 평소에 꿈꾸던 서비스 혹은 세상을 바꿀 수 있는 것들을 직접 만들 수 있습니다! </p>
-            </div>
-          </div>
-          <div class="featured-box">
-            <div class="featured-box-col1 wow fadeInRight delay-04s">
-              <i class="fa-gift"></i>
-            </div>
-            <div class="featured-box-col2 wow fadeInRight delay-04s">
-              <h3>Hack Your Life</h3>
-              <p>프로그래밍을 통해 우리의 삶을 바꾸는 도전을 합니다! 그 첫단계로 자신의 아이디어를 실현합니다 :) </p>
-            </div>
-          </div>
-          <div class="featured-box">
-            <div class="featured-box-col1 wow fadeInRight delay-06s">
-              <i class="fa-dashboard"></i>
-            </div>
-            <div class="featured-box-col2 wow fadeInRight delay-06s">
-              <h3>likelion is optimized to change life.</h3>
-              <p>지루한 일상에서 무언가 새로운 것을 찾고 있으신가요? 그렇다면 멋쟁이 사자처럼이 도와드립니다!</p>
-            </div>
-          </div>
+            <ul>
+                <li><a href="index.html#service">SERVICE</a></li>
+                <li><a href="notification.html">NOTIFICATION</a></li>
+                <li><a href="picture.html">PICTURE</a></li>
+                <li><a href="history.html">HISTORY</a></li>
+            </ul>
         </div>
-      </div>
-    </div>
-  </section>
+    </header>
 
-
-  <div class="c-logo-part">
-    <!--c-logo-part-start-->
-    <div class="container">
-      <ul>
-        <li>
-          <a href="https://likelion.net/ko/partners" target="_blank">
-            <img src="img/sp1.png" alt="">
-          </a>
-        </li>
-        <li>
-          <a href="https://likelion.net/ko/partners" target="_blank">
-            <img src="img/sp2.png" alt="">
-          </a>
-        </li>
-        <!-- <li>
-          <a href="https://likelion.net/ko/partners" target="_blank"><img src="img/sp3.png" alt=""></a>
-        </li>
-        <li>
-          <a href="https://likelion.net/ko/partners" target="_blank"><img src="img/sp4.png" alt=""></a>
-        </li>
-        <li>
-          <a href="https://likelion.net/ko/partners" target="_blank"><img src="img/sp5.png" alt=""></a>
-        </li> -->
-      </ul>
-    </div>
-  </div>
-  <!--c-logo-part-end-->
-
-  <section class="main-section team" id="team">
-    <!--main-section team-start-->
-    <div class="container">
-      <h2>2018년 경북대학교 LIEKLION 6기 운영진</h2>
-      <h6>멋사 6기를 준비하기 위해 많은 시간과 노력을 한 운영진입니다!</h6>
-      <div class="team-leader-block clearfix">
-        <div class="team-leader-box">
-          <div class="team-leader wow fadeInDown delay-03s">
-            <div class="team-leader-shadow">
-              <a href="#team"></a>
+    <section class="intro">
+        <div class="des">
+            <div class="flex">
+                <h1>멋사를 함께하게 되어 반가워요</h1>
+                <p>멋사를 하면서 우리는 앞으로 많은 일들을 하게 될 거예요! 우리 모두 즐겨요!</p>
             </div>
-            <img src="img/장효인.jpg" alt="">
-            <ul>
-              <li>
-                <a href="https://janghyoin.github.io" target="_blank" class="fa-home"></a>
-              </li>
-            </ul>
-          </div>
-          <h3 class="wow fadeInDown delay-03s">hyoin jang</h3>
-          <span class="wow fadeInDown delay-03s">경북대학교 LIKELION 운영진 대표</span>
-          <p class="wow fadeInDown delay-03s">멋쟁이 사자처럼!</p>
         </div>
+    </section>
 
-        <div class="team-leader-box">
-          <div class="team-leader wow fadeInDown delay-03s">
-            <div class="team-leader-shadow">
-              <a href="#team"></a>
+    <section id="service" class="serv">
+        <div class="width">
+            <div class="service">
+                <div class="img">
+                    <div class="box">
+                        <h1>멋쟁이 <br>사자처럼을 통해 <br>우리는...</h1>
+                    </div>
+                    
+                </div>
+                <div class="text">
+                    <p>Ruby 라는 언어를 배우고 Ruby On Raills를 통해 웹서비스를 만들겁니다! 그리고 2018년에는 더 많은 것들을 배울 수 있도록 준비하고 있습니다 :)</p>
+                </div>
             </div>
-            <img src="img/이령홍.jpg" alt="">
-            <ul>
-              <li>
-                <a href="https://ryeoung.github.io" target="_blank" class="fa-home"></a>
-              </li>
-            </ul>
-          </div>
-          <h3 class="wow fadeInDown delay-03s">ryeounghong lee</h3>
-          <span class="wow fadeInDown delay-03s">경북대학교 LIKELION 운영진 부대표</span>
-          <p class="wow fadeInDown delay-03s">놀고싶다</p>
+
+            <div class="serv_des">
+                <div class="con">
+                    <i class="fab fa-chrome"></i>
+                    <h2>PROGRAMING IS LIKE MAGIC</h2>
+                    <p>우리는 프로그래밍을 통해 평소에 꿈꾸던 서비스 혹은 세상을 바꿀 수 있는 것들을 직접 만들 수 있습니다!</p>
+                </div>
+                <div class="con">
+                    <i class="fas fa-laptop"></i>
+                    <h2>HACK YOUR LIFE</h2>
+                    <p>프로그래밍을 통해 우리의 삶을 바꾸는 도전을 합니다! 그 첫단계로 자신의 아이디어를 실현합니다 :)</p>
+                </div>
+                <div class="con">
+                    <i class="fas fa-child"></i>
+                    <h2>LIKELION IS OPTIMIZED TO CHANGE LIFE</h2>
+                    <p>지루한 일상에서 무언가 새로운 것을 찾고 있으신가요? 그렇다면 멋쟁이 사자처럼이 도와드립니다!</p>
+                </div>     
+            </div>
+        </div>  
+    </section>
+    
+    <section id="team" class="master">
+        <div class="title">
+            <h1>2019년 경북대학교 LIEKLION 7기 운영진</h1>
+            <p>멋사 7기를 준비하기 위해 많은 시간과 노력을 한 운영진입니다!</p>
         </div>
-
-        <div class="team-leader-box">
-          <div class="team-leader wow fadeInDown delay-03s">
-            <div class="team-leader-shadow">
-              <a href="#team"></a>
-            </div>
-            <img src="img/team1.jpg" alt="">
-            <ul>
-              <li>
-                <a href="https://www.instagram.com/woosublee" target="_blank" class="fa-instagram"></a>
-              </li>
-              <li>
-                <a href="https://www.facebook.com/dntjqdlekd" target="_blank" class="fa-facebook"></a>
-              </li>
-              <li>
-                <a href="http://vicals.xyz" target="_blank" class="fa-home"></a>
-              </li>
+        <div class="flexslider">
+            <ul class="slides">
+                <li>
+                    <ul class="list">
+                        <li>
+                            <a href="https://dheldh77.github.io/">
+                                <div class="content">
+                                    <img src="static/images/김민석.jpg" alt="">
+                                    <div class="text">
+                                        <h1>김민석</h1>
+                                        <h4>경북대학교 LIKELION 운영진 대표</h4>
+                                        <p>멋쟁이 사자처럼!</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://yoo-jaein.github.io/">
+                                <div class="content">
+                                    <img src="static/images/유재인.jpg" alt="">
+                                    <div class="text">
+                                        <h1>유재인</h1>
+                                        <h4>경북대학교 LIKELION 운영진 부대표</h4>
+                                        <p>대표</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://leesanha.github.io/">
+                                <div class="content">
+                                    <img src="static/images/이산하.jpg" alt="">
+                                    <div class="text">
+                                        <h1>이산하</h1>
+                                        <h4>경북대학교 LIKELION 운영진</h4>
+                                        <p>대표</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>   
+                </li>
+                <li>
+                    <ul class="list">
+                        <li>
+                            <a href="https://yoonshinwoong.github.io/">
+                                <div class="content">
+                                    <img src="static/images/윤신웅.jpg" alt="">
+                                    <div class="text">
+                                        <h1>윤신웅</h1>
+                                        <h4>경북대학교 LIKELION 운영진</h4>
+                                        <p>대표</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="atom">
+                            <a href="https://sijune.github.io/">
+                                <div class="content">
+                                    <img src="static/images/이시준.jpg" alt="">
+                                    <div class="text">
+                                        <h1>이시준</h1>
+                                        <h4>경북대학교 LIKELION 운영진</h4>
+                                        <p>대표</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://kjsu0209.github.io/">
+                                <div class="content">
+                                    <img src="static/images/김정수.jpg" alt="">
+                                    <div class="text">
+                                        <h1>김정수</h1>
+                                        <h4>경북대학교 LIKELION 운영진</h4>
+                                        <p>대표</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
             </ul>
-          </div>
-          <h3 class="wow fadeInDown delay-03s">woosub lee</h3>
-          <span class="wow fadeInDown delay-03s">경북대학교 LIKELION 운영진</span>
-          <p class="wow fadeInDown delay-03s">Trapick.me!</p>
         </div>
+    </section>
 
-        <div class="team-leader-box">
-          <div class="team-leader wow fadeInDown delay-03s">
-            <div class="team-leader-shadow">
-              <a href="#team"></a>
-            </div>
-            <img src="img/이준우2.jpg" alt="">
-            <ul>
-              <li>
-                <a href="https://lwt1347.github.io" target="_blank" class="fa-home"></a>
-              </li>
-            </ul>
-          </div>
-          <h3 class="wow fadeInDown delay-03s">junwoo lee</h3>
-          <span class="wow fadeInDown delay-03s">경북대학교 LIKELION 운영진</span>
-          <p class="wow fadeInDown delay-03s">Unpretty Web Star</p>
+    <section class="student">
+        <div class="title">
+            <h1>2019년 경북대학교 LIEKLION 6기 학생</h1>
+            <p>2019 경북대학교 멋쟁이 사자처럼 6기를 소개합니다!</p>
         </div>
+        <div class="flexslider ">
+            <ul class="slides">
+                <li>
+                    <ul class="list">
+                        <li>
+                            <a href="https://dheldh77.github.io/">
+                                <div class="content">
+                                    <img src="static/images/김민석.jpg" alt="">
+                                    <div class="text">
+                                        <h1>김민석</h1>
+                                        <h4>경북대학교 LIKELION 6기</h4>
+                                        <p>열심히 하겠습니다</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://kjsu0209.github.io/">
+                                <div class="content">
+                                    <img src="static/images/김정수.jpg" alt="">
+                                    <div class="text">
+                                        <h1>김정수</h1>
+                                        <h4>경북대학교 LIKELION 6기</h4>
+                                        <p>I LIKELION!!</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://jiyeon9673.github.io/">
+                                <div class="content">
+                                    <img src="static/images/김지연.jpg" alt="">
+                                    <div class="text">
+                                        <h1>김지연</h1>
+                                        <h4>경북대학교 LIKELION 6기</h4>
+                                        <p>열심히 배울게요😊</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://scy0626.github.io/">
+                                <div class="content">
+                                    <img src="static/images/손채영.jpg" alt="">
+                                    <div class="text">
+                                        <h1>손채영</h1>
+                                        <h4>경북대학교 LIKELION 6기</h4>
+                                        <p>겜, 술친구 둘다 구해요~~</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
 
-        <div class="team-leader-box">
-          <div class="team-leader wow fadeInDown delay-03s">
-            <div class="team-leader-shadow">
-              <a href="#team"></a>
-            </div>
-            <img src="img/김동영.jpg" alt="">
-            <ul>
-              <li>
-                <a href="https://ehddud559.github.io" target="_blank" class="fa-home"></a>
-              </li>
+                        <li>
+                            <a href="https://yoo-jaein.github.io/">
+                                <div class="content">
+                                    <img src="static/images/유재인.jpg" alt="">
+                                    <div class="text">
+                                        <h1>유재인</h1>
+                                        <h4>경북대학교 LIKELION 6기</h4>
+                                        <p>멋쟁이 토마토</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://yoonshinwoong.github.io/">
+                                <div class="content">
+                                    <img src="static/images/윤신웅.jpg" alt="">
+                                    <div class="text">
+                                        <h1>윤신웅</h1>
+                                        <h4>경북대학교 LIKELION 6기</h4>
+                                        <p>잘 부탁드립니다!!</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://mandarine3.github.io/">
+                                <div class="content">
+                                    <img src="static/images/이규민.jpg" alt="">
+                                    <div class="text">
+                                        <h1>이규민</h1>
+                                        <h4>경북대학교 LIKELION 6기</h4>
+                                        <p>마! 코딩해뿌자</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://leesanha.github.io/">
+                                <div class="content">
+                                    <img src="static/images/이산하.jpg" alt="">
+                                    <div class="text">
+                                        <h1>이산하</h1>
+                                        <h4>경북대학교 LIKELION 6기</h4>
+                                        <p>경북대 멋사 6기 화이팅!</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        
+                    </ul>   
+                </li>
+                <li>
+                    <ul class="list">
+                        <li class="atom">
+                            <a href="https://seanlee211.github.io/">
+                                <div class="content">
+                                    <img src="static/images/이수진.jpg" alt="">
+                                    <div class="text">
+                                        <h1>이수진</h1>
+                                        <h4>경북대학교 LIKELION 6기</h4>
+                                        <p>멋쟁이 사자처럼 6기 화이팅!</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://sijune.github.io/">
+                                <div class="content">
+                                    <img src="static/images/이시준.jpg" alt="">
+                                    <div class="text">
+                                        <h1>이시준</h1>
+                                        <h4>경북대학교 LIKELION 6기</h4>
+                                        <p>열심히 할께요 ㅎㅎ</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="atom">
+                            <a href="https://leejiin.github.io/">
+                                <div class="content">
+                                    <img src="static/images/이지인1.jpg" alt="">
+                                    <div class="text">
+                                        <h1>이지인</h1>
+                                        <h4>경북대학교 LIKELION 6기</h4>
+                                        <p>Vita Dolce</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://leeh0.github.io/">
+                                <div class="content">
+                                    <img src="static/images/이지현.jpg" alt="">
+                                    <div class="text">
+                                        <h1>이지현</h1>
+                                        <h4>경북대학교 LIKELION 6기</h4>
+                                        <p>버둥바둥</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="atom">
+                            <a href="https://chaehanbin.github.io/">
+                                <div class="content">
+                                    <img src="static/images/채한빈.jpg" alt="">
+                                    <div class="text">
+                                        <h1>채한빈</h1>
+                                        <h4>경북대학교 LIKELION 6기</h4>
+                                        <p>>_<</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://yeonjudkwl.github.io/">
+                                <div class="content">
+                                    <img src="static/images/홍연주.jpg" alt="">
+                                    <div class="text">
+                                        <h1>홍연주</h1>
+                                        <h4>경북대학교 LIKELION 6기</h4>
+                                        <p>멋.쟁이 사자처럼 6</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="atom">
+                            <a href="https://suk0.github.io/">
+                                <div class="content">
+                                    <img src="static/images/황수경.jpg" alt="">
+                                    <div class="text">
+                                        <h1>황수경</h1>
+                                        <h4>경북대학교 LIKELION 6기</h4>
+                                        <p>Make my day</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li class="blank">
+                            <a href="">
+                                <div class="content">
+                                    <img src="static/images/김민석.jpg" alt="">
+                                    <div class="text">
+                                        <h1>김민석</h1>
+                                        <h4>경북대학교 LIKELION 6기</h4>
+                                        <p>멋쟁이 사자처럼!</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        
+                    </ul>
+                </li>
+
             </ul>
-          </div>
-          <h3 class="wow fadeInDown delay-03s">dongyoung kim</h3>
-          <span class="wow fadeInDown delay-03s">경북대학교 LIKELION 운영진</span>
-          <p class="wow fadeInDown delay-03s">#호랑이도 좋아</p>
         </div>
-      </div>
-    </div>
-  </section>
-  <!-- team 1 end-->
+    </section>
 
-  <section class="main-section2 teamwork" id="team2">
-    <!--main-section team-start-->
-    <div class="container">
-      <h2>2018년 경북대학교 LIEKLION 6기 학생</h2>
-      <h6>2018 경북대학교 멋쟁이 사자처럼 6기를 소개합니다!</h6>
-      <div class="teamwork-leader-block clearfix">
-        <div class="teamwork-leader-box">
-          <div class="teamwork-leader wow fadeInDown delay-03s">
-            <div class="teamwork-leader-shadow">
-              <a href="#team"></a>
+    <footer id="contact">
+        <div class="container">
+            <div class="right">
+                <img src="static/images/logo_r.png" alt="">
+                <h3>KNU X LIKELION</h3>
+                <p><i class="far fa-copyright"></i> LIKELION 2018. All Rights Reserved Made by LIKELION of KNU</p>
             </div>
-            <img src="img/김민석.jpg" alt="">
-            <ul>
-              <li>
-                <a href="https://dheldh77.github.io/" target="_blank" class="fa-home"></a>
-              </li>
-            </ul>
-          </div>
-          <h3 class="wow fadeInDown delay-03s">김민석</h3>
-          <span class="wow fadeInDown delay-03s">경북대학교 LIKELION 6기</span>
-          <p class="wow fadeInDown delay-03s">열심히 하겠습니다</p>
+            <div class="contact">
+                <h2>궁금한점이 있으신가요?</h2>
+                <p class=sub>아래를 통해 연락주세요!</p>
+                <div class="ficon">
+                    <p><a href="https://www.facebook.com/likelionKNU"> <i class="fab fa-facebook-f"></i>페이스북 </a></p>
+                    <p><a href="https://pf.kakao.com/_xlxgCwd"><i class="fas fa-comment"></i>카카오 플러스 친구</a></p>
+                </div>
+            </div>
         </div>
+    </footer>
 
-        <!-- <div class="teamwork-leader-box">
-          <div class="teamwork-leader wow fadeInDown delay-03s">
-            <div class="teamwork-leader-shadow">
-              <a href="#team"></a>
-            </div>
-            <img src="img/김송이.jpg" alt="">
-            <ul>
-              <li>
-                <a href="https://zjarowpcnf.github.io/" target="_blank" class="fa-home"></a>
-              </li>
-            </ul>
-          </div>
-          <h3 class="wow fadeInDown delay-03s">김송이</h3>
-          <span class="wow fadeInDown delay-03s">경북대학교 LIKELION 6기</span>
-          <p class="wow fadeInDown delay-03s">만수무강!</p>
-        </div> -->
+    <a href="#" class="top"><i class="fas fa-chevron-circle-up"></i></a>
 
-        <div class="teamwork-leader-box">
-          <div class="teamwork-leader wow fadeInDown delay-03s">
-            <div class="teamwork-leader-shadow">
-              <a href="#team"></a>
-            </div>
-            <img src="img/김정수.jpg" alt="">
-            <ul>
-              <li>
-                <a href="https://kjsu0209.github.io/" target="_blank" class="fa-home"></a>
-              </li>
-            </ul>
-          </div>
-          <h3 class="wow fadeInDown delay-03s">김정수</h3>
-          <span class="wow fadeInDown delay-03s">경북대학교 LIKELION 6기</span>
-          <p class="wow fadeInDown delay-03s">I LIKELION!!</p>
-        </div>
-
-        <div class="teamwork-leader-box">
-          <div class="teamwork-leader wow fadeInDown delay-03s">
-            <div class="teamwork-leader-shadow">
-              <a href="#team"></a>
-            </div>
-            <img src="img/김지연.jpg" alt="">
-            <ul>
-              <li>
-                <a href="https://jiyeon9673.github.io/" target="_blank" class="fa-home"></a>
-              </li>
-            </ul>
-          </div>
-          <h3 class="wow fadeInDown delay-03s">김지연</h3>
-          <span class="wow fadeInDown delay-03s">경북대학교 LIKELION 6기</span>
-          <p class="wow fadeInDown delay-03s">열심히 배울게요😊</p>
-        </div>
-
-        <!-- <div class="teamwork-leader-box">
-          <div class="teamwork-leader wow fadeInDown delay-03s">
-            <div class="teamwork-leader-shadow">
-              <a href="#team"></a>
-            </div>
-            <img src="img/박동현.jpg" alt="">
-            <ul>
-              <li>
-                <a href="https://parkdong.github.io/" target="_blank" class="fa-home"></a>
-              </li>
-            </ul>
-          </div>
-          <h3 class="wow fadeInDown delay-03s">박동현</h3>
-          <span class="wow fadeInDown delay-03s">경북대학교 LIKELION 6기</span>
-          <p class="wow fadeInDown delay-03s">carpe diem!</p>
-        </div> -->
-
-        <!-- <div class="teamwork-leader-box">
-          <div class="teamwork-leader wow fadeInDown delay-03s">
-            <div class="teamwork-leader-shadow">
-              <a href="#team"></a>
-            </div>
-            <img src="img/박지훈.jpg" alt="">
-            <ul>
-              <li>
-                <a href="https://parkjihooon.github.io/" target="_blank" class="fa-home"></a>
-              </li>
-            </ul>
-          </div>
-          <h3 class="wow fadeInDown delay-03s">박지훈</h3>
-          <span class="wow fadeInDown delay-03s">경북대학교 LIKELION 6기</span>
-          <p class="wow fadeInDown delay-03s">화이팅</p>
-        </div> -->
-
-        <div class="teamwork-leader-box">
-          <div class="teamwork-leader wow fadeInDown delay-03s">
-            <div class="teamwork-leader-shadow">
-              <a href="#team"></a>
-            </div>
-            <img src="img/손채영.jpg" alt="">
-            <ul>
-              <li>
-                <a href="https://scy0626.github.io/" target="_blank" class="fa-home"></a>
-              </li>
-            </ul>
-          </div>
-          <h3 class="wow fadeInDown delay-03s">손채영</h3>
-          <span class="wow fadeInDown delay-03s">경북대학교 LIKELION 6기</span>
-          <p class="wow fadeInDown delay-03s">겜, 술친구 둘다 구해요~~</p>
-        </div>
-
-        <div class="teamwork-leader-box">
-          <div class="teamwork-leader wow fadeInDown delay-03s">
-            <div class="teamwork-leader-shadow">
-              <a href="#team"></a>
-            </div>
-            <img src="img/유재인.jpg" alt="">
-            <ul>
-              <li>
-                <a href="https://yoo-jaein.github.io/" target="_blank" class="fa-home"></a>
-              </li>
-            </ul>
-          </div>
-          <h3 class="wow fadeInDown delay-03s">유재인</h3>
-          <span class="wow fadeInDown delay-03s">경북대학교 LIKELION 6기</span>
-          <p class="wow fadeInDown delay-03s">멋쟁이 토마토</p>
-        </div>
-
-        <div class="teamwork-leader-box">
-          <div class="teamwork-leader wow fadeInDown delay-03s">
-            <div class="teamwork-leader-shadow">
-              <a href="#team"></a>
-            </div>
-            <img src="img/윤신웅.jpg" alt="">
-            <ul>
-              <li>
-                <a href="https://yoonshinwoong.github.io/" target="_blank" class="fa-home"></a>
-              </li>
-            </ul>
-          </div>
-          <h3 class="wow fadeInDown delay-03s">윤신웅</h3>
-          <span class="wow fadeInDown delay-03s">경북대학교 LIKELION 6기</span>
-          <p class="wow fadeInDown delay-03s">잘 부탁드립니다!!</p>
-        </div>
-
-        <div class="teamwork-leader-box">
-          <div class="teamwork-leader wow fadeInDown delay-03s">
-            <div class="teamwork-leader-shadow">
-              <a href="#team"></a>
-            </div>
-            <img src="img/이규민.jpg" alt="">
-            <ul>
-              <li>
-                <a href="https://mandarine3.github.io/" target="_blank" class="fa-home"></a>
-              </li>
-            </ul>
-          </div>
-          <h3 class="wow fadeInDown delay-03s">이규민</h3>
-          <span class="wow fadeInDown delay-03s">경북대학교 LIKELION 6기</span>
-          <p class="wow fadeInDown delay-03s">마! 코딩해뿌자</p>
-        </div>
-
-        <div class="teamwork-leader-box">
-          <div class="teamwork-leader wow fadeInDown delay-03s">
-            <div class="teamwork-leader-shadow">
-              <a href="#team"></a>
-            </div>
-            <img src="img/이산하.jpg" alt="">
-            <ul>
-              <li>
-                <a href="https://leesanha.github.io/" target="_blank" class="fa-home"></a>
-              </li>
-            </ul>
-          </div>
-          <h3 class="wow fadeInDown delay-03s">이산하</h3>
-          <span class="wow fadeInDown delay-03s">경북대학교 LIKELION 6기</span>
-          <p class="wow fadeInDown delay-03s">경북대 멋사 6기 화이팅!</p>
-        </div>
-
-        <div class="teamwork-leader-box">
-          <div class="teamwork-leader wow fadeInDown delay-03s">
-            <div class="teamwork-leader-shadow">
-              <a href="#team"></a>
-            </div>
-            <img src="img/이수진.jpg" alt="">
-            <ul>
-              <li>
-                <a href="https://seanlee211.github.io/" target="_blank" class="fa-home"></a>
-              </li>
-            </ul>
-          </div>
-          <h3 class="wow fadeInDown delay-03s">이수진</h3>
-          <span class="wow fadeInDown delay-03s">경북대학교 LIKELION 6기</span>
-          <p class="wow fadeInDown delay-03s">멋쟁이 사자처럼 6기 화이팅!</p>
-        </div>
-
-        <div class="teamwork-leader-box">
-          <div class="teamwork-leader wow fadeInDown delay-03s">
-            <div class="teamwork-leader-shadow">
-              <a href="#team"></a>
-            </div>
-            <img src="img/이시준.jpg" alt="">
-            <ul>
-              <li>
-                <a href="https://sijune.github.io/" target="_blank" class="fa-home"></a>
-              </li>
-            </ul>
-          </div>
-          <h3 class="wow fadeInDown delay-03s">이시준</h3>
-          <span class="wow fadeInDown delay-03s">경북대학교 LIKELION 6기</span>
-          <p class="wow fadeInDown delay-03s">열심히 할께요 ㅎㅎ</p>
-        </div>
-
-        <div class="teamwork-leader-box">
-          <div class="teamwork-leader wow fadeInDown delay-03s">
-            <div class="teamwork-leader-shadow">
-              <a href="#team"></a>
-            </div>
-            <img src="img/이지인1.jpg" alt="">
-            <ul>
-              <li>
-                <a href="https://leejiin.github.io/" target="_blank" class="fa-home"></a>
-              </li>
-            </ul>
-          </div>
-          <h3 class="wow fadeInDown delay-03s">이지인</h3>
-          <span class="wow fadeInDown delay-03s">경북대학교 LIKELION 6기</span>
-          <p class="wow fadeInDown delay-03s">Vita Dolce</p>
-        </div>
-
-        <div class="teamwork-leader-box">
-          <div class="teamwork-leader wow fadeInDown delay-03s">
-            <div class="teamwork-leader-shadow">
-              <a href="#team"></a>
-            </div>
-            <img src="img/이지현.jpg" alt="">
-            <ul>
-              <li>
-                <a href="https://leeh0.github.io/" target="_blank" class="fa-home"></a>
-              </li>
-            </ul>
-          </div>
-          <h3 class="wow fadeInDown delay-03s">이지현</h3>
-          <span class="wow fadeInDown delay-03s">경북대학교 LIKELION 6기</span>
-          <p class="wow fadeInDown delay-03s">버둥바둥</p>
-        </div>
-
-        <!-- <div class="teamwork-leader-box">
-          <div class="teamwork-leader wow fadeInDown delay-03s">
-            <div class="teamwork-leader-shadow">
-              <a href="#team"></a>
-            </div>
-            <img src="img/장준호.jpg" alt="">
-            <ul>
-              <li>
-                <a href="https://joonh0.github.io/" target="_blank" class="fa-home"></a>
-              </li>
-            </ul>
-          </div>
-          <h3 class="wow fadeInDown delay-03s">장준호</h3>
-          <span class="wow fadeInDown delay-03s">경북대학교 LIKELION 6기</span>
-          <p class="wow fadeInDown delay-03s">멋쟁이 사자처럼</p>
-        </div> -->
-
-        <!-- <div class="teamwork-leader-box">
-          <div class="teamwork-leader wow fadeInDown delay-03s">
-            <div class="teamwork-leader-shadow">
-              <a href="#team"></a>
-            </div>
-            <img src="img/정동진.jpg" alt="">
-            <ul>
-              <li>
-                <a href="https://ehd5719.github.io/" target="_blank" class="fa-home"></a>
-              </li>
-            </ul>
-          </div>
-          <h3 class="wow fadeInDown delay-03s">정동진</h3>
-          <span class="wow fadeInDown delay-03s">경북대학교 LIKELION 6기</span>
-          <p class="wow fadeInDown delay-03s">열심히해요~</p>
-        </div> -->
-
-        <div class="teamwork-leader-box">
-          <div class="teamwork-leader wow fadeInDown delay-03s">
-            <div class="teamwork-leader-shadow">
-              <a href="#team"></a>
-            </div>
-            <img src="img/채한빈.jpg" alt="">
-            <ul>
-              <li>
-                <a href="https://chaehanbin.github.io/" target="_blank" class="fa-home"></a>
-              </li>
-            </ul>
-          </div>
-          <h3 class="wow fadeInDown delay-03s">채한빈</h3>
-          <span class="wow fadeInDown delay-03s">경북대학교 LIKELION 6기</span>
-          <p class="wow fadeInDown delay-03s">>_
-            <</p>
-        </div>
-
-        <div class="teamwork-leader-box">
-          <div class="teamwork-leader wow fadeInDown delay-03s">
-            <div class="teamwork-leader-shadow">
-              <a href="#team"></a>
-            </div>
-            <img src="img/홍연주.jpg" alt="">
-            <ul>
-              <li>
-                <a href="http://yeonjudkwl.github.io" target="_blank" class="fa-home"></a>
-              </li>
-            </ul>
-          </div>
-          <h3 class="wow fadeInDown delay-03s">홍연주</h3>
-          <span class="wow fadeInDown delay-03s">경북대학교 LIKELION 6기</span>
-          <p class="wow fadeInDown delay-03s">멋.쟁이 사자처럼 6</p>
-        </div>
-
-        <div class="teamwork-leader-box">
-          <div class="teamwork-leader wow fadeInDown delay-03s">
-            <div class="teamwork-leader-shadow">
-              <a href="#team"></a>
-            </div>
-            <img src="img/황수경.jpg" alt="">
-            <ul>
-              <li>
-                <a href="https://suk0.github.io/" target="_blank" class="fa-home"></a>
-              </li>
-            </ul>
-          </div>
-          <h3 class="wow fadeInDown delay-03s">황수경</h3>
-          <span class="wow fadeInDown delay-03s">경북대학교 LIKELION 6기</span>
-          <p class="wow fadeInDown delay-03s">Make my day</p>
-        </div>
-
-
-      </div>
-  </section>
-  <!-- team 2 end-->
-
-  <section class="business-talking" id="contact">
-    <!--business-talking-start-->
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 col-sm-12 wow fadeInLeft">
-          <ul class="social-link">
-            <h2>궁금한 점이 있으신가요?</h2>
-            <h4>카카오톡과 페이스북을 통해 연락해주세요!</h4>
-            <div class="comment">
-              <a href="http://plus.kakao.com/home/@멋쟁이사자처럼경북대학교" target="_blank">
-                <i class="fa fa-comments" aria-hidden="true"></i>
-              </a>
-            </div>
-            <div class="facebook">
-              <a href="https://www.facebook.com/likelionKNU" target="_blank">
-                <i class="fa-facebook"></i>
-              </a>
-            </div>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!--business-talking-end-->
-
-
-
-  <footer class="footer">
-    <div class="container">
-      <div class="footer-logo">
-        <a href="#">
-          <img src="img/footer-logo.png" alt="">
-        </a>
-      </div>
-      <span class="copyright">&copy; LIKELION 2018. All Rights Reserved
-        <br> Made by Vicals</span>
-    </div>
-  </footer>
-  <!-- footer end -->
-
-  <!-- 스크립트 시작 -->
-  <!-- <script type="text/javascript">
-    $(document).ready(function (e) {
-      $('#test').scrollToFixed();
-      $('.res-nav_click').click(function () {
-        $('.main-nav').slideToggle();
-        return false
-      });
-    });
-  </script>
-
-  <script>
-    wow = new WOW({
-      animateClass: 'animated',
-      offset: 100
-    });
-    wow.init();
-  </script> -->
-
-
-  <!-- <script type="text/javascript">
-    $(window).load(function () {
-      $('.main-nav li a, .servicelink').bind('click', function (event) {
-        var $anchor = $(this);
-        $('html, body').stop().animate({
-          scrollTop: $($anchor.attr('href')).offset().top - 102
-        }, 1500, 'easeInOutExpo');
-        /*
-        if you don't want to use the easing effects:
-        $('html, body').stop().animate({
-        	scrollTop: $($anchor.attr('href')).offset().top
-        }, 1000);
-        */
-        event.preventDefault();
-      });
-    })
-  </script> -->
-
-  <!-- <script type="text/javascript">
-    $(window).load(function () {
-      var $container = $('.portfolioContainer'),
-        $body = $('body'),
-        colW = 375,
-        columns = null;
-      $container.isotope({
-        // disable window resizing
-        resizable: true,
-        masonry: {
-          columnWidth: colW
+<script type="text/javascript" charset="utf-8">
+    $(window).load(function() {
+    $('.flexslider').flexslider({
+        animation: "slide",
+        start: function(slider){
+            $('.flexslider').resize();
         }
-      });
-      $(window).smartresize(function () {
-        // check if columns has changed
-        var currentColumns = Math.floor(($body.width() - 30) / colW);
-        if (currentColumns !== columns) {
-          // set new column count
-          columns = currentColumns;
-          // apply width to container manually, then trigger relayout
-          $container.width(columns * colW)
-            .isotope('reLayout');
+    });
+    });
+</script>
+
+<script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+<script>
+    $( document ).ready( function() {
+    $( window ).scroll( function() {
+        if ( $( this ).scrollTop() > 200 ) {
+        $( '.top' ).fadeIn();
+        } else {
+        $( '.top' ).fadeOut();
         }
-      }).smartresize(); // trigger resize to set container width
-      $('.portfolioFilter a').click(function () {
-        $('.portfolioFilter .current').removeClass('current');
-        $(this).addClass('current');
-        var selector = $(this).attr('data-filter');
-        $container.isotope({
-          filter: selector,
-        });
+    } );
+    $( '.top' ).click( function() {
+        $( 'html, body' ).animate( { scrollTop : 0 }, 400 );
         return false;
-      });
-    });
-  </script> -->
+    } );
+    } );
+</script>
 
-  <!--카운트다운 관련 스크립트-->
-  <!-- 1 -->
-  <!-- <script>
-    // Set the date we're counting down to
-    var countDownDate1 = new Date("jun 19, 2017 19:30:00").getTime();
-    // Update the count down every 1 second
-    var x1 = setInterval(function () {
-      // Get todays date and time
-      var now1 = new Date().getTime();
-      // Find the distance between now an the count down date
-      var distance1 = countDownDate1 - now1;
-      // Time calculations for days, hours, minutes and seconds
-      var days1 = Math.floor(distance1 / (1000 * 60 * 60 * 24));
-      var hours1 = Math.floor((distance1 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-      var minutes1 = Math.floor((distance1 % (1000 * 60 * 60)) / (1000 * 60));
-      var seconds1 = Math.floor((distance1 % (1000 * 60)) / 1000);
-      // Output the result in an element with id="demo"
-      document.getElementById("demo1").innerHTML = "1번 과제 : " + days1 + "일 " + hours1 + "시간 " +
-        minutes1 + "분 " + seconds1 + "초 남았습니다!";
-      // If the count down is over, write some text
-      if (distance1 < 0) {
-        clearInterval(x1);
-        document.getElementById("demo1").innerHTML = "1번 과제제출 시간이 끝났습니다!";
-      }
-    }, 1000);
-  </script> -->
-  <!-- 2 -->
-  <!-- <script>
-    // Set the date we're counting down to
-    var countDownDate2 = new Date("jun 19, 2017 19:30:00").getTime();
-    // Update the count down every 1 second
-    var x2 = setInterval(function () {
-      // Get todays date and time
-      var now2 = new Date().getTime();
-      // Find the distance between now an the count down date
-      var distance2 = countDownDate2 - now2;
-      // Time calculations for days, hours, minutes and seconds
-      var days2 = Math.floor(distance2 / (1000 * 60 * 60 * 24));
-      var hours2 = Math.floor((distance2 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-      var minutes2 = Math.floor((distance2 % (1000 * 60 * 60)) / (1000 * 60));
-      var seconds2 = Math.floor((distance2 % (1000 * 60)) / 1000);
-      // Output the result in an element with id="demo"
-      document.getElementById("demo2").innerHTML = "2번 과제 : " + days2 + "일 " + hours2 + "시간 " +
-        minutes2 + "분 " + seconds2 + "초 남았습니다!";
-      // If the count down is over, write some text
-      if (distance2 < 0) {
-        clearInterval(x2);
-        document.getElementById("demo2").innerHTML = "2번 과제제출 시간이 끝났습니다!";
-      }
-    }, 1000);
-  </script> -->
-  <!-- 3 -->
-  <!-- <script>
-    // Set the date we're counting down to
-    var countDownDate3 = new Date("jun 19, 2017 19:30:00").getTime();
-    // Update the count down every 1 second
-    var x3 = setInterval(function () {
-      // Get todays date and time
-      var now3 = new Date().getTime();
-      // Find the distance between now an the count down date
-      var distance3 = countDownDate3 - now3;
-      // Time calculations for days, hours, minutes and seconds
-      var days3 = Math.floor(distance3 / (1000 * 60 * 60 * 24));
-      var hours3 = Math.floor((distance3 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-      var minutes3 = Math.floor((distance3 % (1000 * 60 * 60)) / (1000 * 60));
-      var seconds3 = Math.floor((distance3 % (1000 * 60)) / 1000);
-      // Output the result in an element with id="demo"
-      document.getElementById("demo3").innerHTML = "3번 과제 : " + days3 + "일 " + hours3 + "시간 " +
-        minutes3 + "분 " + seconds3 + "초 남았습니다!";
-      // If the count down is over, write some text
-      if (distance3 < 0) {
-        clearInterval(x3);
-        document.getElementById("demo3").innerHTML = "3번 과제제출 시간이 끝났습니다!";
-      }
-    }, 1000);
-  </script> -->
-
-  <!-- 카카오톡 관련 스크립트-->
-  <!-- <script type='text/javascript'>
-    //<![CDATA[
-    // // 사용할 앱의 JavaScript 키를 설정해 주세요.
-    Kakao.init('3e786f8df14fcfc89d159421a6a7c9b6');
-    // // 카카오링크 버튼을 생성합니다. 처음 한번만 호출하면 됩니다.
-    Kakao.Link.createTalkLinkButton({
-      container: '#kakao-link-btn',
-      label: '멋사 과제 제출합니다!',
-    });
-    //]]>
-  </script> -->
-
-  <!-- popover 관련 스크립트-->
-  <!-- <script>
-    $(".popover1").popover({
-        trigger: "manual",
-        html: true,
-        animation: false
-      })
-      .on("mouseenter", function () {
-        var _this = this;
-        $(this).popover("show");
-        $("#popover1").on("mouseleave", function () {
-          $(_this).popover('hide');
-        });
-      }).on("mouseleave", function () {
-        var _this = this;
-        setTimeout(function () {
-          if (!$(".popover:hover").length) {
-            $(_this).popover("hide");
-          }
-        }, 300);
-      });
-  </script> -->
-
-
-  <!-- 지원서 시작 타이머 -->
-  <!-- <script>
-    // Set the date we're counting down to
-    var countDownDate1 = new Date("feb 24, 2018 23:59:59").getTime();
-    // Update the count down every 1 second
-    var x1 = setInterval(function () {
-      // Get todays date and time
-      var now1 = new Date().getTime();
-      // Find the distance between now an the count down date
-      var distance1 = countDownDate1 - now1;
-      // Time calculations for days, hours, minutes and seconds
-      var days1 = Math.floor(distance1 / (1000 * 60 * 60 * 24));
-      var hours1 = Math.floor((distance1 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-      var minutes1 = Math.floor((distance1 % (1000 * 60 * 60)) / (1000 * 60));
-      var seconds1 = Math.floor((distance1 % (1000 * 60)) / 1000);
-      // Output the result in an element with id="demo"
-      document.getElementById("apply").innerHTML = "모집 시작까지 " + days1 + "일 " + hours1 + "시간 " +
-        minutes1 + "분 " + seconds1 + "분 밖에 안남았어요 :)";
-      // If the count down is over, write some text
-      if (distance1 < 0) {
-        clearInterval(x1);
-        document.getElementById("apply").innerHTML = "현재 멋쟁이 사자처럼 모집 중입니다! 3월 8일까지 :)";
-      }
-    }, 1000);
-  </script> -->
-  <!-- 지원서 시작 타이머 끝 -->
 </body>
-
 </html>

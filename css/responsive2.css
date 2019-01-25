@@ -1,4 +1,0 @@
-@media only screen and (max-width: 767px) {
-	.teamwork-leader-box{ max-width:307px; width:auto; float:none; margin:0 auto;	}
-	.teamwork-leader-box:nth-of-type(5n){ margin:0 auto}
-}
